@@ -21,7 +21,7 @@ class Snake {
 
     // Drawing the snake on the screen
     show() {
-        fill(255);
+        fill(0, 255, 0);
         rect(this.x, this.y, this.size, this.size);
         for (var i = 0; i < this.tail.length; i++) {
             rect(this.tail[i][0], this.tail[i][1], this.size, this.size);
